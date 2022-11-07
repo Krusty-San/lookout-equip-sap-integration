@@ -65,7 +65,7 @@ The `appConfig.json` file takes the input paramters for the stack. Maintain the 
 * `subnet`  Enter the subnet for Lambda exection
 ## Resource Identifiers
 * `stackname` Enter an Identifier/Name for the CDK stack
-* `ddbtablename` Enter a name for Dynamo DB Table that would be created as part of the stack which would hold the metadata for creating defect notification in SAP
+* `ddbtablename` Enter a name for Dynamo DB Table that would be created as part of the stack which would hold the metadata for creating Service notification in SAP
 ## Bucket Structure
 * `bucketname` Enter the name of the bucketwhere the inferences are sent.
 * `inferencefolder` Enter the name of the folder(prefix)where the inferences are sent
