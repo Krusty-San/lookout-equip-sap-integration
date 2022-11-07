@@ -1,0 +1,24 @@
+{
+    "env": {
+        "account": "306804516433",
+        "region": "us-east-1"
+    },
+    "vpcId": "vpc-02c1e538061336e94",
+    "subnet": "subnet-0363c5f133b33428a",
+    "stackName": "lookoutequip",
+    "sapenv": {
+        "SAP_AUTH_SECRET": "arn:aws:secretsmanager:us-east-1:9999999999:secret:saps4auth-rw0Ngw",
+        "SAP_HOST_NAME": "saponwas.aws.dev",
+        "SAP_PORT": "443",
+        "SAP_PROTOCOL": "https"
+    },
+    "ddbtablename": "configl4e",
+    "s3":{
+    "bucketname": "saplookoutforequipment",
+    "equipment": "CAM-01",
+    "material": "CB-FL-001",
+    "plant": "1710",
+    "inferencefolder":"/data/scheduled_inference/output/"
+    },
+     "lambdaTimeout": 900
+}
