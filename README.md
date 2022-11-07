@@ -9,7 +9,7 @@ If the SAP ECC or S/4 HANA system is an API provider to BTP, please use the belo
 ![architecture](/lookoutforequi.png)
 
 The API proxy and policy steps are taken from the [SAP documentation](https://blogs.sap.com/2020/08/10/consuming-sap-on-premise-data-through-sap-api-management/) to pass the APIKey and XCSRF token.  
-![API product](/APIProduct.png)
+![API product](/APIproduct.png)
 ![API](/API.png)
 ![API](/APIPolicy.png)
 
